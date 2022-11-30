@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 const log4js = require('log4js')
 const log4jsExtend = require('log4js-extend')
 const assert = require('assert')

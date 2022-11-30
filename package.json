@@ -16,11 +16,18 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "eslint": "^8.28.0",
     "mocha": "^10.1.0"
   },
   "dependencies": {
     "axios": "^1.2.0",
     "log4js": "^6.7.1",
-    "log4js-extend": "^0.2.1"
+    "log4js-extend": "^0.2.1",
+    "tracer": "^1.1.6"
+  },
+  "standard-": {
+    "env": [
+      "mocha"
+    ]
   }
 }
