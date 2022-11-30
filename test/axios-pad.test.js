@@ -3,6 +3,7 @@
 // eslint-env mocha
 /* eslint-env mocha */
 const axios = require('axios')
+// const assert = require('node:assert') // wont work for node12.x
 const assert = require('node:assert')
 
 const logger = require('tracer').colorConsole({
