@@ -4,7 +4,7 @@
 /* eslint-env mocha */
 const axios = require('axios')
 // const assert = require('node:assert') // wont work for node12.x
-const assert = require('node:assert')
+const assert = require('assert')
 
 const logger = require('tracer').colorConsole({
   format: '{{timestamp}} <{{title}}>{{file}}:{{line}}: {{message}}',
